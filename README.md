@@ -1,4 +1,4 @@
-# JPH-GBT-Model
+# JPH-GBT model
 The codes are for Join persistent homology (JPH)-based machine learning model for metalloprotein-ligand binding affinity prediction
 
 # How to use 
