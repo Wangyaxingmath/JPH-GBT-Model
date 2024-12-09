@@ -506,7 +506,6 @@ def main(filename, cutoff_distance, bins_num):
          
     return Feature_matrix 
 
-
 Test = main(filename=test_filename, cutoff_distance=10.0, bins_num=50)
 
 # Resort the feature matrix into file
@@ -521,9 +520,9 @@ print(len(L))
 
 Feature_matrix = {"Feature": F, "Label": L}
 
-df_train = pd.DataFrame(Feature_matrix)
+df_test = pd.DataFrame(Feature_matrix)
 
-df_train.to_csv('test.csv')
+df_test.to_csv('test.csv')
 
 
 
