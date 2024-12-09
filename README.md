@@ -8,7 +8,8 @@ The codes are for the implementation of paper "Join persistent homology (JPH)-ba
 We need to get the atom coordinates from the metalloprotein-ligand dataset from PBDBind-v2020. The dataset is organized into training, validation, and test sets based on the different types of metal ions, as outlined by Jiang et al.(2023). For further details, please refer to the Supplementary Files of the article: "MetalProGNet: a structure-based deep graph model for
 metalloprotein–ligand interaction predictions, Jiang et al." 
 
-## Algebraic representation and persistent Tor-algebra featurization
+## Algebraic representation and JPH featurization
+![F004](https://github.com/user-attachments/assets/dcce1405-f8bf-455d-b391-6eb5f1098722)
 
-# How to use 
+## How to use 
 You can replace the file path by your own and run the JPH-GBT-Train.py and JPH-GBT-Test.py to get the train and test features, and then run the JPH-GBT-Model.py to get the result.
