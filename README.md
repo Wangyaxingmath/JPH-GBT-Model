@@ -11,7 +11,7 @@ We need to get the atom coordinates from the metalloprotein-ligand dataset from 
 metalloprotein–ligand interaction predictions, Jiang et al." 
 
 ## Molecular element-specific representation and JPH featurization
-For each metalloprotein-protein complex, the element-specific atom combinations are considered. The types of elements considered for metalloprotein at the binding core regions are categorized into 15 groups based on their types, including five non-metal ions C, N, O, S, H, and ten metal ions K, Zn, Ca, Na, Mg, Mn, Fe, Cu, Ni, Co. The ligand atoms are decomposed into ten groups based on their types of elements, including C, N, O, S, H, P,  F, Cl, Br, and I. The interactions between metalloproteins and ligands are categorized into protein-ligand interactions, metal ions-protein interactions, metal ions-ligand interactions, respectively, with an illusration shown in the following Figure. 
+For each metalloprotein-protein complex, the element-specific atom combinations are considered. The types of elements considered for metalloprotein at the binding core regions are categorized into 15 groups based on their types, including five non-metal ions C, N, O, S, H, and ten metal ions K, Zn, Ca, Na, Mg, Mn, Fe, Cu, Ni, Co. The ligand atoms are decomposed into ten groups based on their types of elements, including C, N, O, S, H, P,  F, Cl, Br, and I. The interactions between metalloproteins and ligands are categorized into protein-ligand interactions, metal ions-protein interactions, metal ions-ligand interactions, respectively, with an illusration shown in the following Figure. In this work, we consider the binning approach.
 
 ![F003](https://github.com/user-attachments/assets/24a6afd6-1783-41a5-8552-3e07b2d1330f)
 
