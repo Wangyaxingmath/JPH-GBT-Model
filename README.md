@@ -3,7 +3,7 @@
 The codes are for implementing the paper "Join persistent homology (JPH)-based machine learning model for metalloprotein-ligand binding affinity prediction."
 
 ## Join persistent homology (JPH)
-Join Persistent Homology (JPH) employs a set of filtration functions to generate a multistage filtration for the join of the original simplicial complex and a specially designed test simplicial complex. For instance, we consider four filtration functions on a pentagon K, where the specially designed test simplicial complex is regarded as {w1, w2, w1w2}. An illustration of this is shown in the figure below.
+Join Persistent Homology (JPH) employs a set of filtration functions to generate a multistage filtration for the join of the original simplicial complex and a specially-designed test simplicial complex. For instance, we consider four filtration functions on a pentagon K, where the specially designed test simplicial complex is regarded as {w1, w2, w1w2}. An illustration of this is shown in the figure below.
 
 ![F004](https://github.com/user-attachments/assets/dcce1405-f8bf-455d-b391-6eb5f1098722)
 
