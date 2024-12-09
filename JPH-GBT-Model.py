@@ -14,9 +14,6 @@ from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.metrics import mean_squared_error
 
 
-
-
-
 df_train = pd.read_csv('/home/yxwang/GEPH-GBT/train.csv')
 df_train['Feature'] = df_train['Feature'].apply(ast.literal_eval)
 X_train = np.stack(df_train['Feature'].values)
@@ -27,8 +24,6 @@ df_test = pd.read_csv('/home/yxwang/GEPH-GBT/test.csv')
 df_test['Feature'] = df_test['Feature'].apply(ast.literal_eval)
 X_test = np.stack(df_test['Feature'].values)
 y_test = df_test['Label'].values
-
-
 
 
 params = {'n_estimators': 60000, 'max_depth': 7, 'min_samples_split':2,
