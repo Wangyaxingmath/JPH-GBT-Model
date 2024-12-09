@@ -1,5 +1,6 @@
 ## Join persistent homology (JPH)
-Join persistent homology (JPH) involves creating a multistage filtration for the join of the original simplicial complex and a specially designed test simplicial complex. JPH can provide a more comprehensive characterization of the intrinsic topological information. Details can be found in Methods of the paper.
+Join persistent homology (JPH) involves creating a multistage filtration for the join of the original simplicial complex and a specially-designed test simplicial complex. For example, we consider four filtration functions on pentagon K and the specially-designed test simplicial complex is considered as {w1 w2, w1w2}, with an illusration shown in the following Figure.
+![F004](https://github.com/user-attachments/assets/dcce1405-f8bf-455d-b391-6eb5f1098722)
 
 ## JPH-GBT model
 The codes are for the implementation of paper "Join persistent homology (JPH)-based machine learning model for metalloprotein-ligand binding affinity prediction"
@@ -9,7 +10,6 @@ We need to get the atom coordinates from the metalloprotein-ligand dataset from 
 metalloprotein–ligand interaction predictions, Jiang et al." 
 
 ## Algebraic representation and JPH featurization
-![F004](https://github.com/user-attachments/assets/dcce1405-f8bf-455d-b391-6eb5f1098722)
 
 ## How to use 
 You can replace the file path by your own and run the JPH-GBT-Train.py and JPH-GBT-Test.py to get the train and test features, and then run the JPH-GBT-Model.py to get the result.
