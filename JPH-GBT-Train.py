@@ -200,7 +200,7 @@ def extract_ligand_coordination(filename):
 
 
 """
-Compute the joint persistent homology
+Compute the join persistent homology with the specially-designed simplicial complexes {w}
 """
 def get_face(simplex):
     all_face = []
