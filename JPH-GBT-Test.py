@@ -9,9 +9,6 @@ import pandas as pd
 import gudhi as gd
 from scipy.spatial.distance import pdist, squareform
 
-from sklearn.ensemble import GradientBoostingRegressor
-from sklearn.metrics import mean_squared_error
-
 
 P_atoms = ["C", "N", "O", "S", "H"]
 L_atoms = ["C", "N", "O", "S", "P", "F", "Cl", "Br", "I", "H"]
@@ -39,7 +36,6 @@ def get_atom_index(atom, atom_type, atom_index):
             return i   
     return -1
 
-
 def get_distance_of_two_points(p1, p2):
     temp = pow(p1[0]-p2[0], 2) + pow(p1[1]-p2[1], 2) + pow(p1[2]-p2[2], 2)
     distance = pow(temp, 0.5)
@@ -62,7 +58,6 @@ def extract_pocket_metal_ions_coordination(filename):
                     continue
                 else:
                      M[M_ions[index]].append(line)
-
    
     point_cloud = {}
     for key, value in M.items():
@@ -153,7 +148,6 @@ def extract_pocket_protein_coordination_within_cutoff_distance(filename1, filena
         
     return point_cloud
     
-
 def extract_ligand_coordination(filename): 
     g = open(filename)
     contents = g.readlines()
@@ -200,7 +194,7 @@ def extract_ligand_coordination(filename):
 
 
 """
-Compute the joint persistent homology
+Compute the join persistent homology
 """
 def get_face(simplex):
     all_face = []
@@ -389,7 +383,6 @@ def split_persistence_to_feature_vector(persistence, n, num):
     
     return feature_vector
     
-    
 def compute_interaction_feature_matrix(point1, point2, filtration_value): 
     point_cloud = {}
     point_number = {}
@@ -443,7 +436,6 @@ def compute_interaction_feature_matrix(point1, point2, filtration_value):
             
     return Feature_vector 
     
-   
 
 filename = '/home/yxwang/Metalloprorein/MetallProtein_data/data.xlsx'
 df = pd.read_excel(filename)
