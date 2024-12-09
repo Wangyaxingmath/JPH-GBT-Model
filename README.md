@@ -1,10 +1,11 @@
+
+# JPH-GBT model
+The codes are for the implementation of paper "Join persistent homology (JPH)-based machine learning model for metalloprotein-ligand binding affinity prediction"
+
 ## Join persistent homology (JPH)
 Join persistent homology (JPH) involves creating a multistage filtration for the join of the original simplicial complex and a specially-designed test simplicial complex. For example, we consider four filtration functions on pentagon K and the specially-designed test simplicial complex is considered as {w1 w2, w1w2}, with an illusration shown in the following Figure.
 
 ![F004](https://github.com/user-attachments/assets/dcce1405-f8bf-455d-b391-6eb5f1098722)
-
-## JPH-GBT model
-The codes are for the implementation of paper "Join persistent homology (JPH)-based machine learning model for metalloprotein-ligand binding affinity prediction"
 
 ## Metalloprotein-ligand complex dataset
 We need to get the atom coordinates from the metalloprotein-ligand dataset from PBDBind-v2020. The dataset is organized into training, validation, and test sets based on the different types of metal ions, as outlined by Jiang et al.(2023). For further details, please refer to the Supplementary Files of the article: "MetalProGNet: a structure-based deep graph model for
